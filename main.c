@@ -17,6 +17,10 @@ int maxRed = maxPerc;
 
 void reduce()
 {
+    percRed = percentage;
+    minRed = minPerc;
+    maxRed = maxPerc;
+    
     if (maxPerc % percentage == 0)
     {
         maxRed /= percentage;
